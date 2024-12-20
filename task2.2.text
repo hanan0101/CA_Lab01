@@ -1,0 +1,32 @@
+Unique Assembler Directives:
+
+    .file "hello.c"
+    .option nopic
+    .attribute
+    .text
+    .section .rodata
+    .align
+    .globl
+    .type
+    .size
+    .ident
+    .section .note.GNU-stack
+
+Unique Base Instructions:
+
+    addi
+    sw
+    lw
+    call
+    li
+    mv
+    jr
+
+Unique Labels:
+
+    main
+    .LC0
+    .LFB0
+    .LFE0
+Unique Pseudoinstruction
+ lui, ori
